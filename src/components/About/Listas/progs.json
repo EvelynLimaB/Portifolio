@@ -1,0 +1,22 @@
+[
+  {
+    "logo": "https://drive.google.com/uc?export=view&id=1o1nuMLbYpaHSeIdjp9rUXcBetkBngWhl",
+    "nome": "React",
+    "descrição": "O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU). Ela oferece uma resposta excelente para o usuário adicionar comandos usando um novo método de renderizar sites."
+  },
+  {
+    "logo": "https://drive.google.com/uc?export=view&id=1KCb3gfdg5SVElZqNHVXBKe5xuJZcn03n",
+    "nome": "JavaScript",
+    "descrição": "JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc."
+  },
+  {
+    "logo": "https://drive.google.com/uc?export=view&id=1sycb1XISTr4HA5xVQIPo56WNsim3LfIG",
+    "nome": "CSS",
+    "descrição": "CSS é uma linguagem baseada em regras. — Você define regras especificando grupos de estilo que devem ser aplicados para elementos particulares ou grupos de elementos na sua página web. Por exemplo, \"Quero que o título principal, na minha página, seja mostrado como um texto grande e de cor vermelha.\""
+  },
+  {
+    "logo": "https://drive.google.com/uc?export=view&id=1iee9o8IKn8eFUuoFblT4mEniXx9iDITM",
+    "nome": "HTML",
+    "descrição": "HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web."
+  }
+]
