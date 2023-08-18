@@ -13,69 +13,69 @@ const borderRadius = 10;
 const transition = 'all 0.45s ease';
 
 const Screenshot = styled.figure`
-  z-index: 200;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: ${cardWidth}px;
-  max-width: 100%;
-  height: 190px;
-  border-radius: ${borderRadius}px ${borderRadius}px 0 0;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  backface-visibility: hidden;
-  transition: ${transition};
-  animation-name: ${appearAn};
-  animation-duration: 1s;
+	z-index: 200;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: ${cardWidth}px;
+	max-width: 100%;
+	height: 190px;
+	border-radius: ${borderRadius}px ${borderRadius}px 0 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	backface-visibility: hidden;
+	transition: ${transition};
+	animation-name: ${appearAn};
+	animation-duration: 1s;
 
-  img {
-    width: 100%;
-  }
+	img {
+		width: 100%;
+	}
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0);
-    transition: ${transition};
-  }
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0);
+		transition: ${transition};
+	}
 `;
 
 const Content = styled.div`
-  z-index: 200;
-  position: relative;
-  padding: 20px 20px 30px;
-  color: ${(props) => props.theme.color};
+	z-index: 200;
+	position: relative;
+	padding: 20px 20px 30px;
+	color: ${(props) => props.theme.color};
 `;
 
 const Title = styled.span`
-  display: block;
-  margin-bottom: 4px;
-  font-size: 1.25em;
-  font-weight: 500;
-  transition: ${transition};
+	display: block;
+	margin-bottom: 4px;
+	font-size: 1.25em;
+	font-weight: 500;
+	transition: ${transition};
 `;
 
 const Description = styled.span`
-  display: block;
-  font-size: 0.875em;
-  color: #999999;
-  transition: ${transition};
-  transition-delay: 0.04s;
+	display: block;
+	font-size: 0.875em;
+	color: #999999;
+	transition: ${transition};
+	transition-delay: 0.04s;
 `;
 
 const BottomBar = styled.span`
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 10px;
-  background: ${(props) => props.background && props.background};
-  border-radius: 0 0 ${borderRadius}px ${borderRadius}px;
-  transition: ${transition};
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 10px;
+	background: ${(props) => props.background && props.background};
+	border-radius: 0 0 ${borderRadius}px ${borderRadius}px;
+	transition: ${transition};
 `;
 
 const Style = styled.button`
@@ -133,20 +133,21 @@ const Style = styled.button`
 `;
 
 const Card = ({ hexa, title, description, image }) => (
-  <Style>
-    <Screenshot>
-      <SimpleBar style={{ height: '105%' }}>
-        <img src={image} />
-      </SimpleBar>
-    </Screenshot>
-    <a href={description}>
-      <Content>
-        <Title>{title}</Title>
-        <Description>{description}</Description>
-        <BottomBar background={hexa} />
-      </Content>
-    </a>
-  </Style>
+	<Style>
+		<a href={description} target="_blank">
+			<Screenshot>
+				<SimpleBar style={{ height: '105%' }}>
+					<img src={image} />
+				</SimpleBar>
+			</Screenshot>
+
+			<Content>
+				<Title>{title}</Title>
+				<Description>{description}</Description>
+				<BottomBar background={hexa} />
+			</Content>
+		</a>
+	</Style>
 );
 
 export default Card;
