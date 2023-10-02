@@ -21,7 +21,6 @@ export const Grid = styled.div`
   margin-top: 5vh;
   width: 90%;
   z-index: 0;
-
   @media screen and (orientation: landscape) {
     flex-direction: row;
   }
