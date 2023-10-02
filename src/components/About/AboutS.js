@@ -142,7 +142,7 @@ export const Button = styled.button`
 	background: none;
 	position: absolute;
 	top: 10px;
-	left: 10px;
+	right: 10px;
 	z-index: 100;
 	img {
 		width: 50px;
@@ -160,27 +160,45 @@ export const Modal = styled(ReactModal)`
 	section {
 		width: 100%;
 		height: 100%;
-		* {
-			border: solid;
-		}
+		display: grid;
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+		grid-column-gap: 1em;
+		grid-row-gap: 1em;
+		justify-items: center;
+	}
+	@media screen and (orientation: landscape) {
+		width: 70vw;
 	}
 `;
 
 export const Icon = styled.img`
-  align-self: flex-start;
-	width: 100%;
+	grid-area: 1 / 1 / 3 / 3;
+	align-self: flex-start;
+	height: 100%;
 	filter: ${(props) => props.theme.convert1};
 `;
 
 export const Nome = styled.h2`
+	display: flex;
+	grid-area: 1 / 3 / 3 / 6;
+	font-size: 3em;
 	width: 100%;
-  height: min-content;
-  text-align: center;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	@media screen and (orientation: landscape) {
+		font-size: 6em;
+	}
 `;
 
 export const Desc = styled.p`
+	grid-area: 3 / 1 / 6 / 7;
+	font-size: 2rem;
 	width: 100%;
-  padding: 4%;
+	padding: 4%;
+	text-align: justify;
 `;
 
 export const MStyle = {
@@ -191,8 +209,9 @@ export const MStyle = {
 	content: {
 		position: 'absolute',
 		top: '40px',
-		left: '40px',
-		right: '40px',
+		left: '0',
+		right: '0',
+		margin: '0 auto',
 		bottom: '40px',
 		overflow: 'auto',
 		WebkitOverflowScrolling: 'touch',
