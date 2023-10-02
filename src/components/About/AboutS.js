@@ -169,14 +169,18 @@ export const Modal = styled(ReactModal)`
 		justify-items: center;
 	}
 	@media screen and (orientation: landscape) {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
 		width: 70vw;
 	}
 `;
 
 export const Icon = styled.img`
 	grid-area: 1 / 1 / 3 / 3;
-	align-self: flex-start;
-	height: 100%;
+	align-self: center;
+	max-width: 100%;
+	max-height: 100%;
 	filter: ${(props) => props.theme.convert1};
 `;
 
@@ -189,7 +193,7 @@ export const Nome = styled.h2`
 	align-items: center;
 	justify-content: center;
 	@media screen and (orientation: landscape) {
-		font-size: 6em;
+		font-size: 4.5rem;
 	}
 `;
 
@@ -199,6 +203,9 @@ export const Desc = styled.p`
 	width: 100%;
 	padding: 4%;
 	text-align: justify;
+	@media screen and (orientation: landscape) {
+		font-size: 3rem;
+	}
 `;
 
 export const MStyle = {
@@ -209,9 +216,8 @@ export const MStyle = {
 	content: {
 		position: 'absolute',
 		top: '40px',
-		left: '0',
-		right: '0',
-		margin: '0 auto',
+		left: '40px',
+		right: '40px',
 		bottom: '40px',
 		overflow: 'auto',
 		WebkitOverflowScrolling: 'touch',
