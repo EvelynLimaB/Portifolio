@@ -23,8 +23,7 @@ export default function About() {
 										setModalData(progs);
 										setModalIsOpen(true);
 										console.log(modalData);
-									}}
-								>
+									}}>
 									<img src={progs.logo} />
 									<p>{progs.nome}</p>
 								</S.Li>
@@ -43,8 +42,7 @@ export default function About() {
 				style={S.MStyle}
 				shouldReturnFocusAfterClose={false}
 				onRequestClose={() => setModalIsOpen(false)}
-				closeTimeoutMS={100}
-			>
+				closeTimeoutMS={100}>
 				<S.Button onClick={() => setModalIsOpen(false)}>
 					<img src={X} />
 				</S.Button>
@@ -53,7 +51,6 @@ export default function About() {
 						<S.Icon src={modalData.logo} />
 						<S.Nome>{modalData.nome}</S.Nome>
 						<S.Desc>{modalData.descrição}</S.Desc>
-						
 					</section>
 				)}
 			</S.Modal>
