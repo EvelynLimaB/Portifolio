@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Circle from '../../Assets/circuloptd_.gif';
-import pontas from '../../Assets/pontas.png';
 import X from '../../Assets/x.png';
 import progs from './Listas/progs';
 import * as S from './AboutS';
@@ -11,7 +9,7 @@ export default function About() {
 
 	return (
 		<S.Section>
-			<S.Circle src={Circle} />
+			<S.Circle />
 			<S.Div>
 				<S.Div1>
 					<S.H2>Coding!</S.H2>
@@ -33,8 +31,8 @@ export default function About() {
 				</S.Div1>
 			</S.Div>
 			<S.Div2>
-				<S.BgCut src={pontas} />
-				WIP
+				<S.BgCut />
+				<h2>EM BREVE</h2>
 			</S.Div2>
 
 			<S.Modal

@@ -1,5 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import ReactModal from 'react-modal';
+import pontas from '../../Assets/pontas.png';
+import circle from '../../Assets/circuloptd_.gif';
 
 const appearAn = keyframes`
 0% {opacity: 0.5;}
@@ -22,27 +24,39 @@ export const Section = styled.section`
 	}
 `;
 
-export const Circle = styled.img`
-	height: 90vw;
+export const Circle = styled.div`
+	height: 85vw;
+	width: 85vw;
 	position: absolute;
 	top: -40vw;
 	right: -40vw;
 	transform: scaleX(-1);
 	filter: ${(props) => props.theme.convert1};
+	background-image: url(${circle});
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
 	@media screen and (orientation: landscape) {
 		height: 45vw;
+		width: 45vw;
 		position: absolute;
 		top: -20vw;
 		right: -15vw;
 	}
 `;
 
-export const BgCut = styled.img`
+export const BgCut = styled.div`
 	position: absolute;
 	top: -80vw;
-	width: 150%;
-	z-index: 0;
+	width: 144.771vw;
+	height: 88.349vw;
+	z-index: -1;
+	background-image: url(${pontas});
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
 	@media screen and (orientation: landscape) {
 		transform: rotate(-10deg);
 		width: 110%;
@@ -50,7 +64,7 @@ export const BgCut = styled.img`
 	}
 `;
 
-export const Div = styled.div`
+export const Div = styled.section`
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -78,6 +92,7 @@ export const H2 = styled.h2`
 	transform: rotate(-10deg);
 	right: 20vw;
 	bottom: 10vh;
+	index: 1;
 `;
 
 export const Proramslng = styled.ul`
@@ -186,23 +201,24 @@ export const Icon = styled.img`
 
 export const Nome = styled.h2`
 	display: flex;
-	grid-area: 1 / 3 / 3 / 6;
-	font-size: 3em;
+	grid-area: 1 / 3 / 3 / 7;
+	font-size: 2.5em;
 	width: 100%;
 	height: 100%;
 	align-items: center;
 	justify-content: center;
 	@media screen and (orientation: landscape) {
 		font-size: 4.5rem;
+		grid-area: 1 / 3 / 3 / 6;
 	}
 `;
 
 export const Desc = styled.p`
 	grid-area: 3 / 1 / 6 / 7;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	width: 100%;
 	padding: 4%;
-	text-align: justify;
+	text-align: center;
 	@media screen and (orientation: landscape) {
 		font-size: 3rem;
 	}
