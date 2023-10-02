@@ -102,9 +102,9 @@ export const About = styled.div`
 	width: 80%;
 	height: 40%;
 	padding: 5%;
-	padding-top: 14%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	text-align: center;
 	border-radius: 50px;
 	border: solid ${(props) => props.theme.pallete2};
@@ -114,8 +114,10 @@ export const About = styled.div`
 		-5px 9px 21px 4px rgba(0, 0, 0, 0.5);
 	overflow-y: auto;
 	p {
+		display: flex;
+		justify-content: center;
 		width: 100%;
-		height: min-content;
+		max-height: 100%;
 	}
 `;
 
