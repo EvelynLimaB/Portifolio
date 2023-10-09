@@ -60,7 +60,7 @@ export const BgCut = styled.div`
 	@media screen and (orientation: landscape) {
 		transform: rotate(-10deg);
 		width: 110%;
-		top: -55vw;
+		top: -65vw;
 	}
 `;
 
