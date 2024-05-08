@@ -35,7 +35,7 @@ export default function Home() {
 				<S.Icondiv>
 					{/* icones */}
 					<S.Li>
-						<a target="_blank" href="https://github.com/eVliin">
+						<a target="_blank" href="https://github.com/EvelynLimaB">
 							<img src={Git} />
 							<p>https://github.com/eVliin</p>
 						</a>
