@@ -1,22 +1,22 @@
 [
-  {
-    "logo": "https://drive.google.com/uc?export=view&id=1o1nuMLbYpaHSeIdjp9rUXcBetkBngWhl",
-    "nome": "React",
-    "descrição": "O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU). Ela oferece uma resposta excelente para o usuário adicionar comandos usando um novo método de renderizar sites."
-  },
-  {
-    "logo": "https://drive.google.com/uc?export=view&id=1KCb3gfdg5SVElZqNHVXBKe5xuJZcn03n",
-    "nome": "JavaScript",
-    "descrição": "JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc."
-  },
-  {
-    "logo": "https://drive.google.com/uc?export=view&id=1sycb1XISTr4HA5xVQIPo56WNsim3LfIG",
-    "nome": "CSS",
-    "descrição": "CSS é uma linguagem baseada em regras. — Você define regras especificando grupos de estilo que devem ser aplicados para elementos particulares ou grupos de elementos na sua página web. Por exemplo, \"Quero que o título principal, na minha página, seja mostrado como um texto grande e de cor vermelha.\""
-  },
-  {
-    "logo": "https://drive.google.com/uc?export=view&id=1iee9o8IKn8eFUuoFblT4mEniXx9iDITM",
-    "nome": "HTML",
-    "descrição": "HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web."
-  }
+	{
+		"logo": "https://drive.google.com/uc?export=view&id=1o1nuMLbYpaHSeIdjp9rUXcBetkBngWhl",
+		"nome": "React",
+		"descrição": "O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU). Ela oferece uma resposta excelente para o usuário adicionar comandos usando um novo método de renderizar sites."
+	},
+	{
+		"logo": "https://lh3.googleusercontent.com/fife/ALs6j_G-5uxEpZpvlTIU-gj6x04AWXjj0dfY-X0rv1EEor8gs3fpFhL-ruT_sJ538TR-55XJPkvMM2PGuW5Nb0WdRIJSXVRU4oAi6-7rW82BLoe6FQSDoGlxEfKr8h8uth5UrvBBpY_AM71d_LpmK3F5IzCBc3uNtFXDqICYkkYhl9TEsTGSlMU9xceY8Y4_9Q2iq76L2Q1YY6cVYUKQgSfssNXDfyuymcoVPYMfKzQMOELn8MEh3VaPxaJwBtlb1Iy5reWkH8pK6YB2tYFcYq0vtprYt22PZK-JvLoRp59Fm4Baw46PDoQj1lMpUDscyyk5gYqLWSkNYz9-B4GHleCg1Xz5UuWIe0AE5kHF0DUsUtXGduUNbdO2BwhMxg6u2qNmKHGT_4MwBxQWuGdDwwxi-Hf2KvWpnrmrhjTdu0lJXOvn8X3zRRPJIrmUsTnmgIGlrMeqI58pi8lFYJjADFgKiymfsdd7CcoUEMp41f4dZPhQh_oD8vvexaf8pBfjOnxeJgtIrgLcR7m1e4hjDNZ6265a3oljjhLisW-4uMrhe7ta6z6nXU2S_FFnFqaphicwoK-i2z_x-wY2rOyPZ4w8vPxOkZdjp_vTvhcCeSaDfoVzO-Ed1T39BrU7W3FIFp5PW9lj59jB5U1_2Rrlflc3H7koZz1pTnmhwEywo6LdjOZk9VfmVuNh7UJQJlIJcDd11wDOvcmic5jT8cuXx_vlJtdWGSILVsbgAs-NmFDDF_lzsGb_7kM7n11yTDI9qQN3dZ-wuEcxZV4_uyYRxexWOKVna_6Y3e9hlq9MF6gAmK4X_hPr7qj3AptLT2h2QsWl7tg3El1DcPIeAQJTC2BLGlJ2HQg0kaEnXBmcUmxhRWg7jWPY7CNX2aFecTHadkeAr_lyZQa6q7GuRMMSaoWkhc0URDhh3_USRt7_PwXi2py3QDoJBopaYFmRX2R6ZXMpX07PcLl1-tWeV5pGL4WBwSXAU5Io_0zueX_RvtOBZsqVrDX8GnvTsx5d5D4W4TuItUWj2AsCVfqkRTpKC-DCBMRddMh87ea7ljSbMvc9KpYmNmCY9gCG7UsnIoZR03VdpTjnlPOSoG2EYkDXmpx5_BK_jfM38W7U1uATWCJxhkFvYVv1kTU3EPhugEL-rDDITBW9xfafd6bWwMdHzjK2LllguJ4MMgX6eL4vno0iDFuhk3Gd8qdXhEi4CwOosbFkc3IC-AQIXyE6oYSdaNYOBsQRbzA2u6zZJ7x8WyOzpSLNu2LQsArBlWhTeWXj78p8trPUzRWc-TKQ7C-UPORTjKn4A2Fv57RiAYoEa7RKqk0eSz-gfSKEx4-58W8g6l--F3ABGbbxCiUWtu9pHF1bqznGR0_Rz-Z2j9LlmGe61ylHMJYfiT2cSJoUIaAfBgfY6SfRW2bhn1_az9NVQ30ighiHdUh4zT5YgGm-r0lH4ujKncCtCoDLTTYd35qrYXlrHPV6ryIoQVPHlLzzeiPEL-mnIAUz3OaqQMNLU8xIyZCiTQeyPHqraJUZYN4X2cGReNqBjmrDXEsXfgGw6gFTsw9h7mGM0Supz-Lg043sQjdNjybA7K2hHICxQtT2Rwc4-Ut7LswmpmVFz7rURcf4WhvX3umuKoBuzrkDBTH3Y38RI5Z--Mu-AhM7jMVpqJ9xk-ImFleeObuU-nfzYZoW25o=w1920-h957",
+		"nome": "JavaScript",
+		"descrição": "JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc."
+	},
+	{
+		"logo": "https://drive.google.com/uc?export=view&id=1sycb1XISTr4HA5xVQIPo56WNsim3LfIG",
+		"nome": "CSS",
+		"descrição": "CSS é uma linguagem baseada em regras. — Você define regras especificando grupos de estilo que devem ser aplicados para elementos particulares ou grupos de elementos na sua página web. Por exemplo, \"Quero que o título principal, na minha página, seja mostrado como um texto grande e de cor vermelha.\""
+	},
+	{
+		"logo": "https://drive.google.com/uc?export=view&id=1iee9o8IKn8eFUuoFblT4mEniXx9iDITM",
+		"nome": "HTML",
+		"descrição": "HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web."
+	}
 ]

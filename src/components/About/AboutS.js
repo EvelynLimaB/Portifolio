@@ -1,11 +1,15 @@
 import styled, { keyframes } from 'styled-components';
 import ReactModal from 'react-modal';
 import pontas from '../../Assets/pontas.png';
-import circle from '../../Assets/circuloptd_.gif';
+import circle from '../../Assets/circuloptd_.svg';
 
 const appearAn = keyframes`
 0% {opacity: 0.5;}
 100% {opacity: 1;}
+`;
+const spin = keyframes`
+0% {rotation:0deg;}
+100% {rotation:5deg;}
 `;
 
 export const Section = styled.section`
