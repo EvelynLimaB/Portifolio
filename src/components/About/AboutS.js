@@ -61,8 +61,7 @@ export const BgCut = styled.div`
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	filter: ${(props) => props.theme.convertb};
-	opacity: 50%;
+	filter: ${(props) => props.theme.convertbg};
 
 	@media screen and (orientation: landscape) {
 		transform: rotate(-10deg);
@@ -91,7 +90,7 @@ export const Div1 = styled(Div)`
 
 export const Div2 = styled(Div)`
 	position: relative;
-	background: rgba(0, 0, 0, 0.5);
+	background: ${(props) => props.theme.aboutbg};
 `;
 
 export const H2 = styled.h2`
