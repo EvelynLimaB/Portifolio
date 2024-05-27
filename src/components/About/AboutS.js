@@ -106,13 +106,14 @@ export const Proramslng = styled.ul`
 	height: 40vh;
 	position: relative;
 	right: 8vw;
-	background: ${(props) => props.theme.background};
+	background: rgba(0, 0, 0, 0.2);
 	border-radius: 50px;
 	z-index: 1;
 	border: solid ${(props) => props.theme.pallete2};
 	-webkit-box-shadow: inset 0px 0px 24px -3px rgba(77, 124, 138, 1);
 	box-shadow: inset 0px 0px 24px -3px rgba(77, 124, 138, 0.1);
 	overflow: hidden;
+	backdrop-filter: blur(6px);
 
 	ul {
 		width: 100%;
