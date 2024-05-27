@@ -9,7 +9,7 @@ const appearAn = keyframes`
 `;
 const spin = keyframes`
 0% {transform: rotate(0deg)}
-100% {transform: rotate(-10deg)}
+100% {transform: rotate(-13deg)}
 `;
 
 export const Section = styled.section`
