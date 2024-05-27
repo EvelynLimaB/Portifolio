@@ -17,7 +17,7 @@ export const dark = {
 	convert1:
 		'invert(89%) sepia(6%) saturate(1861%) hue-rotate(114deg) brightness(99%) contrast(100%)',
 	convert2:
-		'invert(77%) sepia(44%) saturate(122%) hue-rotate(293deg) brightness(108%) contrast(102%)'
+		'invert(77%) sepia(44%) saturate(122%) hue-rotate(293deg) brightness(108%) contrast(102%) drop-shadow(8px 10px 3px rgba(0, 0, 0, 0.3))'
 };
 
 export const light = {
@@ -35,5 +35,5 @@ export const light = {
 	convert1:
 		'invert(89%) sepia(6%) saturate(1861%) hue-rotate(114deg) brightness(99%) contrast(100%)',
 	convert2:
-		'invert(77%) sepia(44%) saturate(122%) hue-rotate(293deg) brightness(108%) contrast(102%)'
+		'invert(77%) sepia(44%) saturate(122%) hue-rotate(293deg) brightness(108%) contrast(102%) drop-shadow(2px 5px 2px #000000);'
 };

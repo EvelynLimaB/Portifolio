@@ -143,8 +143,7 @@ export const Li = styled.li`
 
 	img {
 		height: 20vw;
-		filter: ${(props) => props.theme.convert2}
-			drop-shadow(8px 10px 3px rgba(0, 0, 0, 0.3));
+		filter: ${(props) => props.theme.convert2};
 	}
 	&:hover {
 		transform: scale(1.05);
