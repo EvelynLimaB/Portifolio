@@ -13,7 +13,7 @@ export const dark = {
 	convertb:
 		'invert(0%) sepia(8%) saturate(19%) hue-rotate(231deg) brightness(117%) contrast(101%)',
 	convertbg:
-		'invert(56%) sepia(1%) saturate(0%) hue-rotate(31deg) brightness(89%) contrast(88%)',
+		'invert(5%) sepia(10%) saturate(437%) hue-rotate(169deg) brightness(91%) contrast(94%)',
 	convert1:
 		'invert(89%) sepia(6%) saturate(1861%) hue-rotate(114deg) brightness(99%) contrast(100%)',
 	convert2:
@@ -31,7 +31,7 @@ export const light = {
 	convertb:
 		'invert(0%) sepia(8%) saturate(19%) hue-rotate(231deg) brightness(117%) contrast(101%)',
 	convertbg:
-		'invert(5%) sepia(10%) saturate(437%) hue-rotate(169deg) brightness(91%) contrast(94%);',
+		'invert(56%) sepia(1%) saturate(0%) hue-rotate(31deg) brightness(89%) contrast(88%)',
 	convert1:
 		'invert(89%) sepia(6%) saturate(1861%) hue-rotate(114deg) brightness(99%) contrast(100%)',
 	convert2:
