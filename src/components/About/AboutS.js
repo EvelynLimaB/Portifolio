@@ -106,7 +106,7 @@ export const Proramslng = styled.ul`
 	height: 40vh;
 	position: relative;
 	right: 8vw;
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.1);
 	border-radius: 50px;
 	z-index: 1;
 	border: solid ${(props) => props.theme.pallete2};
