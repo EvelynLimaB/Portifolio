@@ -91,7 +91,6 @@ export const Div1 = styled(Div)`
 export const Div2 = styled(Div)`
 	position: relative;
 	background: #000;
-	filter: ${(props) => props.theme.convert1};
 `;
 
 export const H2 = styled.h2`
