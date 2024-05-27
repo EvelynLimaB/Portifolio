@@ -37,14 +37,13 @@ export default function Home() {
 					<S.Li>
 						<a target="_blank" href="https://github.com/EvelynLimaB">
 							<img src={Git} />
-							<p>https://github.com/eVliin</p>
+							<p>https://github.com/EvelynLimaB</p>
 						</a>
 					</S.Li>
 					<S.Li>
 						<a
 							target="_blank"
-							href="https://api.whatsapp.com/send?phone=5521977260938"
-						>
+							href="https://api.whatsapp.com/send?phone=5521977260938">
 							<img src={Zap} />
 							<p>+55 (21) 97726-0938</p>
 						</a>
@@ -52,8 +51,7 @@ export default function Home() {
 					<S.Li>
 						<a
 							target="_blank"
-							href="https://www.linkedin.com/in/evelyn-lima-barreto/"
-						>
+							href="https://www.linkedin.com/in/evelyn-lima-barreto/">
 							<img src={Ln} />
 							<p>Evelyn Lima Barreto</p>
 						</a>

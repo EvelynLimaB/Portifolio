@@ -56,6 +56,7 @@ export const BgCut = styled.div`
 	top: -80vw;
 	width: 144.771vw;
 	height: 88.349vw;
+	opacity: 50%;
 	z-index: -1;
 	background-image: url(${pontas});
 	background-size: cover;
