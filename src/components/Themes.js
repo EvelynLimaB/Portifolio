@@ -5,7 +5,7 @@ export const dark = {
 	color: '#ffffff',
 	bar: 'rgba(255,255,255,0.4)',
 	barbg: 'rgba(255,255,255,0.2)',
-	aboutbg: '#111213',
+	aboutbg: '#121314',
 	pallete1: '#FFE0ED',
 	pallete2: '#9df7e5',
 	convertw:
