@@ -8,8 +8,8 @@ const appearAn = keyframes`
 100% {opacity: 1;}
 `;
 const spin = keyframes`
-0% {transform: rotation (0deg)}
-100% {transform: rotation (5deg)}
+0% {transform: rotate(0deg)}
+100% {transform: rotate(5deg)}
 `;
 
 export const Section = styled.section`
@@ -40,6 +40,7 @@ export const Circle = styled.div`
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	animation: ${spin} 1s linear infinite;
 
 	@media screen and (orientation: landscape) {
 		height: 45vw;
