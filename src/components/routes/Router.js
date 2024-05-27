@@ -10,38 +10,39 @@ import styled from 'styled-components';
 const RoutesS = styled(Routes)``;
 
 const Theme = styled.button`
-  position: fixed;
-  background: none;
-  cursor: pointer;
-  width: 15%;
-  z-index: 100;
+	position: fixed;
+	top: 2%;
+	left: 2vw;
+	background: none;
+	cursor: pointer;
+	width: 15%;
+	z-index: 100;
 
-  img {
-    width: 100%;
-    filter: ${(props) => props.theme.convertw};
-    opacity: 0.5;
-  }
-  @media screen and (orientation: landscape) {
-    width: 5%;
-  }
+	img {
+		width: 100%;
+		filter: ${(props) => props.theme.convertw};
+		opacity: 0.5;
+	}
+	@media screen and (orientation: landscape) {
+		width: 5%;
+	}
 `;
 
 export default function Router({ show, toggleTheme }) {
-  return (
-    <BrowserRouter>
-      <Theme
-        onClick={() => {
-          toggleTheme();
-        }}
-      >
-        <img src={SnMn} />
-      </Theme>
-      <RoutesS>
-        <Route path="/" element={<Home />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/about" element={<About />} />
-      </RoutesS>
-      <Header rota="Home" rota2="Works" rota3="About" show={show} />
-    </BrowserRouter>
-  );
+	return (
+		<BrowserRouter>
+			<Theme
+				onClick={() => {
+					toggleTheme();
+				}}>
+				<img src={SnMn} />
+			</Theme>
+			<RoutesS>
+				<Route path="/" element={<Home />} />
+				<Route path="/works" element={<Works />} />
+				<Route path="/about" element={<About />} />
+			</RoutesS>
+			<Header rota="Home" rota2="Works" rota3="About" show={show} />
+		</BrowserRouter>
+	);
 }
