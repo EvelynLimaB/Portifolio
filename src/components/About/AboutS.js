@@ -8,8 +8,8 @@ const appearAn = keyframes`
 100% {opacity: 1;}
 `;
 const spin = keyframes`
-0% {rotation:0deg;}
-100% {rotation:5deg;}
+0% {transform: rotation (0deg)}
+100% {transform: rotation (5deg)}
 `;
 
 export const Section = styled.section`
