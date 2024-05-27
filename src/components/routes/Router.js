@@ -32,6 +32,7 @@ export default function Router({ show, toggleTheme }) {
 	return (
 		<BrowserRouter>
 			<Theme
+				value="Alternar entre tema escuro e claro"
 				onClick={() => {
 					toggleTheme();
 				}}>
