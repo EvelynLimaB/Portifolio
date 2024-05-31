@@ -15,7 +15,8 @@ export default function App() {
 	useEffect(() => {
 		() => {
 			console.log(state);
-		  }, [state]);
+		},
+			[state];
 
 		let oldValue = 0;
 		let newValue = 0;
