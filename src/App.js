@@ -7,17 +7,14 @@ import { ThemeProvider } from 'styled-components';
 import useLocalStorage from './hooks/useLocalStorage';
 
 export default function App() {
-	const [state, setState] = useLocalStorage(
-		'theme',
-		{
-			theme: themes.dark
-		},
-		(newValue) => {
-			// Callback after state is set in local storage
-			console.log('Theme updated in local storage:', newValue);
-		}
-	);
+	const [state, setState] = useLocalStorage('theme', {
+		theme: themes.dark
+	});
 	const [show, setShow] = useState(true);
+
+	useEffect(() => {
+		localStorage.setItem('theme', JSON.stringify(state.theme));
+	}, [state.theme]);
 
 	useEffect(() => {
 		let oldValue = 0;
