@@ -4,8 +4,15 @@ import Header from './Header/Header';
 import Home from '../Home/Home';
 import Works from '../Works/Works';
 import About from '../About/About';
+import SnMn_up from '../../Assets/SnMn_up.png';
 import SnMn from '../../Assets/SnMn.png';
 import styled from 'styled-components';
+
+const [activeImg, setActiveImg] = useState('SnMn_up.png');
+
+const handleClick = () => {
+	setActiveImg(activeImage === 'SnMn_up.png' ? 'SnMn.png' : 'SnMn_up.png');
+};
 
 const RoutesS = styled(Routes)``;
 
@@ -35,8 +42,9 @@ export default function Router({ show, toggleTheme }) {
 				value="Alternar entre tema escuro e claro"
 				onClick={() => {
 					toggleTheme();
+					handleClick();
 				}}>
-				<img src={SnMn} />
+				<img src={activeImg} />
 			</Theme>
 			<RoutesS>
 				<Route path="/" element={<Home />} />
