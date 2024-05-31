@@ -13,10 +13,14 @@ export default function App() {
 	const [show, setShow] = useState(true);
 
 	useEffect(() => {
+		() => {
+			console.log(state);
+		  }, [state]);
+
 		let oldValue = 0;
 		let newValue = 0;
 
-		document.getElementById('body').addEventListener('scroll', function (e) {
+		document.getElementById('body').addEventListener('scroll', function () {
 			// Get the new Value
 			newValue = document.getElementById('body').scrollTop;
 
