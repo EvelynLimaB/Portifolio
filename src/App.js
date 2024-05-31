@@ -7,7 +7,9 @@ import { ThemeProvider } from 'styled-components';
 import useLocalStorage from './hooks/useLocalStorage';
 
 export default function App() {
-	const [state, setState] = useLocalStorage('theme');
+	const [state, setState] = useLocalStorage('theme', {
+		theme: themes.dark
+	});
 	const [show, setShow] = useState(true);
 
 	useEffect(() => {
