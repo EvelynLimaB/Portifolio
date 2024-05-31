@@ -8,9 +8,6 @@ import SnMn_up from '../../Assets/SnMn_up.png';
 import SnMn from '../../Assets/SnMn.png';
 import styled from 'styled-components';
 
-const [isPressed, setIsPressed] = useState(false);
-const [SnMn_icon, setImageSrc] = useState(SnMn_up);
-
 const RoutesS = styled(Routes)``;
 
 const Theme = styled.button`
@@ -33,14 +30,14 @@ const Theme = styled.button`
 `;
 
 export default function Router({ show, toggleTheme }) {
+	const [SnMn_icon, setImageSrc] = useState(SnMn_up);
+
 	const handleMouseDown = () => {
-		setIsPressed(true);
 		setImageSrc(SnMn);
 		toggleTheme();
 	};
 
 	const handleMouseUp = () => {
-		setIsPressed(false);
 		setImageSrc(SnMn_up);
 	};
 
