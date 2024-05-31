@@ -13,10 +13,6 @@ export default function App() {
 	const [show, setShow] = useState(true);
 
 	useEffect(() => {
-		localStorage.setItem('theme', JSON.stringify(state.theme));
-	}, [state.theme]);
-
-	useEffect(() => {
 		let oldValue = 0;
 		let newValue = 0;
 
