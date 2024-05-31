@@ -9,7 +9,7 @@ import SnMn from '../../Assets/SnMn.png';
 import styled from 'styled-components';
 
 const [isPressed, setIsPressed] = useState(false);
-const [SnMn_up, setImageSrc] = useState(SnMn_up);
+const [SnMn_icon, setImageSrc] = useState(SnMn_up);
 
 const RoutesS = styled(Routes)``;
 
