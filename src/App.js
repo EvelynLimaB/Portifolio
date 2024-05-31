@@ -15,7 +15,7 @@ export default function App() {
 	useEffect(() => {
 		let oldValue = 0;
 		let newValue = 0;
-		setState();
+
 		document.getElementById('body').addEventListener('scroll', function () {
 			// Get the new Value
 			newValue = document.getElementById('body').scrollTop;
