@@ -16,7 +16,7 @@ export default function App() {
 		let oldValue = 0;
 		let newValue = 0;
 
-		document.getElementById('body').addEventListener('scroll', function () {
+		document.getElementById('body').addEventListener('scroll', function (e) {
 			// Get the new Value
 			newValue = document.getElementById('body').scrollTop;
 
