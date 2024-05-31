@@ -9,6 +9,9 @@ import useLocalStorage from './hooks/useLocalStorage';
 export default function App() {
 	const [state, setState] = useLocalStorage('theme', {
 		theme: themes.dark
+	}), (newValue) => {
+		// Callback after state is set in local storage
+		console.log('Theme updated in local storage:', newValue);
 	});
 	const [show, setShow] = useState(true);
 
