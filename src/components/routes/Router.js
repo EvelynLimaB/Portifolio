@@ -8,10 +8,10 @@ import SnMn_up from '../../Assets/SnMn_up.png';
 import SnMn from '../../Assets/SnMn.png';
 import styled from 'styled-components';
 
-const [activeImg, setActiveImg] = useState('SnMn_up.png');
+const [activeImg, setActiveImg] = useState(SnMn_up);
 
 const handleClick = () => {
-	setActiveImg(activeImage === 'SnMn_up.png' ? 'SnMn.png' : 'SnMn_up.png');
+	setActiveImg(activeImage === SnMn_up ? SnMn : SnMn_up);
 };
 
 const RoutesS = styled(Routes)``;
