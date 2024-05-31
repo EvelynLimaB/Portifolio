@@ -4,12 +4,9 @@ import Header from './Header/Header';
 import Home from '../Home/Home';
 import Works from '../Works/Works';
 import About from '../About/About';
-import SnMn_up from '../../Assets/SnMn_up.png';
 import SnMn from '../../Assets/SnMn.png';
 import styled from 'styled-components';
 
-const [isPressed, setIsPressed] = useState(false);
-const [activeImg, setActiveImg] = useState(SnMn_up);
 const RoutesS = styled(Routes)``;
 
 const Theme = styled.button`
@@ -32,18 +29,14 @@ const Theme = styled.button`
 `;
 
 export default function Router({ show, toggleTheme }) {
-	const handleClick = () => {
-		toggleTheme();
-		setActiveImg((activeImage = SnMn_up ? SnMn : SnMn_up));
-	};
-
 	return (
 		<BrowserRouter>
 			<Theme
 				value="Alternar entre tema escuro e claro"
-				onMouseDown={() => handleClick()}
-				onMouseUp={() => setIsPressed(false)}>
-				<img src={activeImg} />
+				onClick={() => {
+					toggleTheme();
+				}}>
+				<img src={SnMn} />
 			</Theme>
 			<RoutesS>
 				<Route path="/" element={<Home />} />
